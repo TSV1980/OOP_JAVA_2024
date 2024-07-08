@@ -86,5 +86,16 @@ public class NoteBook {
     public void setColor(String color) {
         this.color = color;
     }
+
+    @Override
+    public String toString() {
+        return "NoteBook{" +
+                "name='" + name + '\'' +
+                ", sizeOfOZU=" + sizeOfOZU +
+                ", sizeOfHDD=" + sizeOfHDD +
+                ", OSName=" + OSName +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
 

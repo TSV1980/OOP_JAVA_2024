@@ -7,3 +7,4 @@ public enum OSTypes {
     IOS,
     NoOS
 }
+
