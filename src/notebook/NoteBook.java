@@ -37,15 +37,15 @@ public class NoteBook {
         this.color  = "Silver";
     }
 
-    public String name;
+    String name;
 
-    public int sizeOfOZU;
+    int sizeOfOZU;
 
-    public int sizeOfHDD;
+    int sizeOfHDD;
 
-    public OSTypes OSName;
+    OSTypes OSName;
 
-    public String color;
+    String color;
 
     public String getName() {
         return name;

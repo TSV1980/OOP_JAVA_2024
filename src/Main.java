@@ -11,10 +11,15 @@ public class Main {
         noteBookStore.addNewNotebook("IBM", 64, 512, OSTypes.Linux, "Black");
         noteBookStore.addNewNotebook("HP", 16, 1024, OSTypes.Windows, "White");
 
+        System.out.println(" Перечень ноутбуков");
         System.out.println(noteBookStore.toString());
 
+        System.out.println(" Запрос Фильтра");
         noteBookStore.queryFilter();
-        noteBookStore.pringFilter();
+        System.out.println(" Вывод фильтра");
+        noteBookStore.printFilter();
+        System.out.println(" Применение фильтра и вывод результата");
+        noteBookStore.applyFiler();
 
         }
     }
